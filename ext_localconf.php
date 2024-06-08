@@ -1,13 +1,13 @@
 <?php
-if(!defined('TYPO3_MODE')) {
+if(!defined('TYPO3')) {
 	die('Access denied.');
 }
 
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-	'Mindshape.MindshapeCookieHint',
+	'MindshapeCookieHint',
 	'Main',
 	array(
-		'Main' => 'cookie',
+		\Mindshape\MindshapeCookieHint\Controller\MainController::class => 'cookie',
 	),
 	// non-cacheable actions
 	array(
