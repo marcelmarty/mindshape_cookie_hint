@@ -30,15 +30,13 @@ $EM_CONF[$_EXTKEY] = [
     'category' => 'fe',
     'version' => '2.0.0',
     'state' => 'stable',
-    'uploadfolder' => false,
-    'createDirs' => '',
     'clearcacheonload' => true,
     'author' => 'mindshape GmbH',
     'author_email' => 'dieter@mindshape.de',
     'author_company' => 'mindshape GmbH',
     'constraints' => [
         'depends' => [
-            'typo3' => '11.5.0-12.4.99',
+            'typo3' => '13.4.0-13.4.99',
         ],
         'conflicts' => [],
         'suggests' => [],

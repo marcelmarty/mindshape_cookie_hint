@@ -11,5 +11,6 @@ if(!defined('TYPO3')) {
 	),
 	// non-cacheable actions
 	array(
-	)
+	),
+    \TYPO3\CMS\Extbase\Utility\ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT
 );

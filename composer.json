@@ -1,13 +1,14 @@
 {
-  "name": "mindshape/mindshape_cookie_hint",
+  "name": "mindshape/mindshape-cookie-hint",
   "type": "typo3-cms-extension",
   "description": "Shows a visible hint on the website that cookies are used - according to the European laws. Easy to install, fully customizable and the hint will permanently be hidden after accepting.",
   "homepage": "https://mindshape.de",
+  "version": "13.0.0",
   "license": [
     "GPL-2.0-or-later"
   ],
   "require": {
-    "typo3/cms-core": "^11.5 || ^12.4"
+    "typo3/cms-core": "^11.5 || ^12.4 || ^13.4"
   },
   "autoload": {
     "psr-4": {
@@ -16,5 +17,10 @@
   },
   "replace": {
     "typo3-ter/mindshape_cookie_hint": "*"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "mindshape_cookie_hint"
+    }
   }
 }

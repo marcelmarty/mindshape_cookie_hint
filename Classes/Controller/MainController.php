@@ -38,7 +38,7 @@ class MainController extends ActionController
     /**
      * @return ResponseInterface
      */
-    public function cookieAction()
+    public function cookieAction(): \Psr\Http\Message\ResponseInterface
     {
         return $this->htmlResponse();
     }
